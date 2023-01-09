@@ -1,0 +1,18 @@
+.add-contact{
+    /* style={{width:"40rem", textAlign:"center", margin:"auto", fontWeight:'600'}} */
+    width: 40rem;
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+}
+
+@media screen and (max-width:700px) {
+    .add-contact{
+        width:25rem;
+    }
+}
+@media screen and (max-width:500px) {
+    .add-contact{
+        width:17rem;
+    }
+}
